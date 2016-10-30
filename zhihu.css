@@ -1,52 +1,69 @@
 div {
-    font-family: 微软雅黑;
+	font-family: 等线;
 }
 .question_link,
-.post-link {
-    font-size: 16px;
+.post-link， {
+	font-size: 15px;
 }
-.summary {
-    font-size: 14px;
+.summary,
+.post-content,
+.zm-item-rich-text {
+	font-size: 14px !important;
 }
 .zu-top {
-    background: #34495e;
-    border: none;
+	background: #34495e;
+	border: none;
 }
 .zhi {
-    background: antiquewhite;
+	background: antiquewhite;
 }
 .zu-main {
-    width: 1050px;
+	width: 1050px;
 }
 .zu-main-content-inner {
-    margin: 0 330px 0 0 !important;
+	margin: 0 330px 0 0 !important;
 }
 .feed-item {
-    border: none !important;
-    width: 720px;
+	border: none !important;
+	width: 720px;
 }
 .feed-item-inner {
-    padding: 10px;
-    border-radius: 4px;
-    background: white;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .05), 0 1px 4px 0 rgba(0, 0, 0, .08), 0 3px 1px -2px rgba(0, 0, 0, .2);
-    ;
+	padding: 10px;
+	border-radius: 4px;
+	background: white;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .05), 0 1px 4px 0 rgba(0, 0, 0, .08), 0 3px 1px -2px rgba(0, 0, 0, .2);
 }
 #zu-top-add-question {
-    background: indianred;
-    border-color: indianred;
+	background: indianred;
+	border-color: indianred;
 }
 .zu-top-search-input {
-    border-color: #34495e;
-    background: black;
+	border-color: #34495e;
+	background: black;
 }
 .zu-top-search-button {
-    background-image: none !important;
-    border: none !important;
-    box-shadow: none !important;
+	background-image: none !important;
+	border: none !important;
+	box-shadow: none !important;
 }
 .current {
-    background-image: none !important;
-    background: indianred !important;
-    box-shadow: none !important;
+	background-image: none !important;
+	background: indianred !important;
+	box-shadow: none !important;
+}
+.zu-main-feed-fresh-button {
+	background-color: indianred !important;
+	color: white !important;
+	text-shadow: 0 1px 0 #000 !important;
+	border: none !important;
+}
+.btn-backtotop {
+	border-radius: 19px !important;
+	background: indianred !important;
+}
+.zh-backtotop .arrow {
+	border-bottom-color: white;
+}
+.zh-backtotop .stick {
+	background-color: white;
 }
